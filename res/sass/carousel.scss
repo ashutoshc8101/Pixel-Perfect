@@ -1,0 +1,25 @@
+#carousel{
+  z-index: 10000;
+  top: 70px;
+  color: #fff;
+  height: 90vh;
+  .carousel-indicators{
+    bottom: 10;
+  }
+
+  .carousel-inner{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    .carousel-item{
+      width: 100%;
+      margin: 0px auto;
+      blockquote{
+        font-size: 50px;
+        margin: 0px auto;
+        width: 80%;
+        text-align: center;
+      }
+    }
+  }
+}

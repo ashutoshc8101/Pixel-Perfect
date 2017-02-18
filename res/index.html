@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <div class="background">
+    <div class="background" data-stellar-ratio="0.5">
   <div class="blue_overlay"></div>
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-toggleable navbar-inverse justify-content-center" id="navbar">
@@ -34,11 +34,43 @@
     </div>
   </nav>
 
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <blockquote>
+          "We Are Web Developers"
+        </blockquote>
+      </div>
+      <div class="carousel-item">
+        <blockquote>
+          "We Will Make Your Webpages Aewsome"
+        </blockquote>
+      </div>
+      <div class="carousel-item">
+      <blockquote>
+        "This Is The Right Place"
+      </blockquote>
+      </div>
+    </div>
+    <a href="#carousel" class="carousel-control-prev carousel-control" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a href="#carousel" class="carousel-control-next carousel-control" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+
+  </div>
+
   </div>
 
 </header>
 
-<div class="container" style="height: 200vh; width: 100%; background: #fff;"></div>
+
 
 <script src="bootstrap\js\jquery-3.1.1.js"></script>
 <script src="bootstrap\js\tether.min.js"></script>
