@@ -1,0 +1,12 @@
+footer{
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  a{
+    color: #fff;
+    &:hover{
+      text-decoration: none;
+      color: #ccc;
+    }
+  }
+}
