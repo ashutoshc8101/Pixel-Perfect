@@ -74,11 +74,10 @@ $(document).ready(function(){
         $('.res')[0].innerHTML = res;
         $("input[name='fname']")[0].value = "";
         $("input[name='femail']")[0].value = "";
-        $("input[name='fph']")[0].value = "";
+        $("input[name='num']")[0].value = "";
         $("textarea")[0].value = "";
       }
      });
-     $('.res').html("<div class='submit-loader loading'></div><span>Data is sending...</span>");
    }
    return false;
   });
