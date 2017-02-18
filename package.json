@@ -1,5 +1,5 @@
 {
-  "name": "business",
+  "name": "pixel-perfect",
   "version": "1.0.0",
   "description": "This is dromestrome's Businness Site",
   "main": "index.html",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "dromestrome",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
@@ -17,5 +17,13 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0",
     "node-sass": "^4.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dromestrome/Pixel-Perfect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dromestrome/Pixel-Perfect/issues"
+  },
+  "homepage": "https://github.com/dromestrome/Pixel-Perfect#readme"
 }
