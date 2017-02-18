@@ -1,0 +1,30 @@
+@media (min-width: 576px) {
+
+  #navbarNav{
+    margin-right: 5%;
+  }
+
+  .navbar-brand{
+    margin-left: 5%;
+    color: #fff;
+  }
+}
+
+.navbar-brand{
+  color: #fff;
+}
+
+.navbar{
+  background: transparent;
+  color: #fff;
+  padding: 15px 30px;
+  transition: background 0.5s;
+
+}
+
+.navbar-toggler{
+  &:hover , &:active{
+  outline: none;
+}
+
+}
