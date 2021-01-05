@@ -1,2 +1,2 @@
 # Pixel-Perfect
-This an aewsome website created by Ashutosh
+This website created by Ashutosh
